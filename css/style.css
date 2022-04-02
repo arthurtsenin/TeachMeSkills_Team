@@ -101,6 +101,9 @@ body {
 	top: 0;
 	left: 0;
 	z-index: 0;
+	width: 100%;
+	padding-left: 17px;
+	padding-right: 70px;
 }
 
 .asos__search::after {
@@ -118,8 +121,10 @@ body {
 input {
 	height: 30px;
 	outline: none;
-	width: 600px;
 	border-radius: 19px;
+	width: 100%;
+	padding-left: 17px;
+	padding-right: 30px;
 }
 
 input::placeholder {
@@ -127,7 +132,6 @@ input::placeholder {
 }
 
 .asos__icons {
-
 	max-width: 150px;
 	display: flex;
 }
@@ -135,7 +139,7 @@ input::placeholder {
 .icon {
 	width: 30px;
 	height: 30px;
-	padding: 0 15px;
+	margin-right: 15px ;
 }
 
 .asos__discount {
@@ -172,7 +176,12 @@ input::placeholder {
 }
 
 .content__container {
+	padding: 0;
 	height: 690px;
+<<<<<<< HEAD
+=======
+	max-width: 1430px;
+>>>>>>> 376168c01e0f52fffe3d000589a76728e877ff68
 	background: url(../assets/bg_asos.JPG) 0 0/cover no-repeat;
 	display: flex;
 	justify-content: center;
