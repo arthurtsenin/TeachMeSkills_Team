@@ -729,7 +729,7 @@ input::placeholder {
 		justify-content: space-between;
 		align-items: center;
 		margin: 0 auto;
-		max-width: 414px;
+		width: 100%;
 	}
 
 	.burger {
