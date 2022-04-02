@@ -10,9 +10,7 @@ a {
 }
 
 a:hover{
-
 	color: blue;
-
 }
 
 body {
@@ -27,7 +25,6 @@ body {
 
 .asos__help {
 	background-color: #f8f8f8;
-
 }
 
 .asos__help__container {
@@ -77,6 +74,7 @@ body {
 	width: 104px;
 	padding-right: 5px;
 }
+
 .male {
 	display: flex;
 }
@@ -85,7 +83,6 @@ body {
 	padding: 13px 30px;
 	border-left: 1px solid white;
 	font-weight: 600;
-
 }
 
 .asos__choice_men {
@@ -155,7 +152,6 @@ input::placeholder {
 	align-items: center;
 	font-weight: 600;
 }
-
 
 .discount__text {
 	display: flex;
@@ -345,17 +341,14 @@ input::placeholder {
 }
 
 .footer__info_container {
-
 	padding: 32px;
 	display: flex;
 	justify-content: space-between;
-
 }
 
 .footer__help, .footer__about, .footer__more, .footer__from {
 	display: flex;
 	flex-direction: column;
-
 }
 
 .footer__help, .footer__about, .footer__more, .footer__from,	a {
@@ -365,6 +358,7 @@ input::placeholder {
 .footer__from {
 	margin-right: 100px;
 }
+
 .help__title {
 	font-size: 16px;
 	font-weight: 600;
@@ -411,7 +405,6 @@ input::placeholder {
 .copyright__links{
 	display: flex;
 }
-
 
 .footer__link{
 	padding: 0 15px;
