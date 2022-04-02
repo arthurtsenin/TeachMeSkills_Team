@@ -437,8 +437,9 @@ input::placeholder {
 }
 
 .content__container {
+	padding: 0;
 	height: 690px;
-	width: 100%;
+	max-width: 1430px;
 	background: url(../assets/bg_asos.JPG) 0 0/cover no-repeat;
 	display: flex;
 	justify-content: center;
