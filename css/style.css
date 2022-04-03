@@ -1,5 +1,4 @@
 
-<<<<<<< HEAD
 * {
 	margin: 0;
 	padding: 0;
@@ -72,8 +71,8 @@ body {
 
 .img__logo {
 	padding-top: 3px;
-	width: 104px;
-	padding-right: 5px;
+	max-width: 104px;
+	padding-right: 20px;
 }
 
 .male {
@@ -132,14 +131,18 @@ input::placeholder {
 }
 
 .asos__icons {
-	max-width: 150px;
+	height: inherit;
+	max-width: 160px;
 	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .icon {
 	width: 30px;
 	height: 30px;
-	margin-right: 15px ;
+	padding: 12px 15px;
+
 }
 
 .asos__discount {
@@ -417,6 +420,92 @@ input::placeholder {
 	border-right: none;
 }
 
+@media (max-width: 1024px) {
+	.male, .asos__help, .footer__from .help__title {
+		display: none;
+	}
+
+	.asos__menu__container {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.burger {
+		display: block;
+		padding: 15px 25px;
+	}
+
+	.burger__item {
+		border-bottom: 3px solid white;
+		content: "";
+		height: 5px;
+		width: 22px;
+	}
+
+	.footer__info_container {
+		flex-wrap: wrap;
+	}
+
+	.footer__from {
+		margin-top: 40px;
+		border-top: 1px solid rgb(204, 204, 204);
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+	}
+	
+	img.icon {
+		width: 30px;
+		height: 30px;
+		padding: 12px 15px;
+	}
+}
+
+
+@media ( max-width: 770px) {
+	.burger {
+		display: block;
+		padding-left: 0px;
+	}
+
+	.asos__logo {
+		padding: 0;
+		margin: 0;
+	}
+
+	.asos__search  {
+		display: block;
+		padding: 15px 0 0 0;
+
+	}
+
+	.asos__search::after {
+		display: block;
+		content: "";
+		background: url(../assets/magnifying-glass.svg) no-repeat;
+		position: absolute;
+		width: 25px;
+		height: 25px;
+		margin-right: 5px;
+		padding: 0;
+		padding: 0;
+		filter: invert(100%);
+	}
+
+	input, form {
+		display: none;
+	}
+	.asos__discount_container {
+		justify-content: center;
+
+	}
+	.discount__choice_women, .discount__choice_men {
+		display: none;
+	}
+}
+
+
 @media (max-width: 414px) {
 
 	body {
@@ -431,7 +520,7 @@ input::placeholder {
 
 	.container {
 		margin: 0 auto;
-		padding: 0;
+		padding: 0 15px;
 		max-width: 414px;
 	}
 
@@ -463,7 +552,7 @@ input::placeholder {
 
 	.burger {
 		display: block;
-		padding-left: 25px;
+		padding-left: 15px;
 	}
 
 	.burger__item {
@@ -475,13 +564,16 @@ input::placeholder {
 
 	.asos__menu__container {
 		padding: 0;
+		margin: 0;
 		height: inherit;
 		display: flex;
+
 	}
 
 	.img__logo {
-		padding-top: 10px;
+		padding: 10px 45px 0 0;
 		max-width: 90px;
+		margin-right: 40px;
 	}
 
 	.asos__choice_women {
@@ -496,6 +588,12 @@ input::placeholder {
 		height: inherit;
 		position: relative;
 	}
+	.asos__search  {
+		display: block;
+		padding: 15px 0 0 0;
+		margin-left: 25px;
+
+	}
 
 	.asos__search::after {
 		display: block;
@@ -504,7 +602,8 @@ input::placeholder {
 		position: absolute;
 		width: 25px;
 		height: 25px;
-		margin-right: 15px;
+		padding: 0;
+		margin-right: 10px;
 		filter: invert(100%);
 	}
 
@@ -521,11 +620,15 @@ input::placeholder {
 		display: flex;
 		align-items: center;
 	}
-
+	img.icon {
+		width: 30px;
+		height: 30px;
+		padding: 12px 10px;
+	}
 	.icon {
 		width: 25px;
 		height: 25px;
-		padding-left: 15px ;
+
 	}
 
 	.asos__discount {
@@ -672,29 +775,5 @@ input::placeholder {
 
 	.footer__link:last-child {
 		display: none;
-	}
-}
-
-@media (max-width: 1024px) {
-	.male, .asos__help, .footer__from .help__title {
-		display: none;
-	}
-
-	.footer__info_container {
-		flex-wrap: wrap;
-	}
-
-	.footer__from {
-		margin-top: 40px;
-		border-top: 1px solid rgb(204, 204, 204);
-		display: flex;
-		flex-direction: row;
-		width: 100%;
-	}
-	
-	img.icon {
-		width: 20px;
-		height: 20px;
-		margin-bottom: 15px;
 	}
 }
