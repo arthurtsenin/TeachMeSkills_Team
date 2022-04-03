@@ -945,3 +945,21 @@ input::placeholder {
 		display: none;
 	}
 }
+
+@media (max-width: 1024px) {
+	.male, .asos__help, .footer__from .help__title {
+		display: none;
+	}
+
+	.footer__info_container {
+		flex-wrap: wrap;
+	}
+
+	.footer__from {
+		margin-top: 40px;
+		border-top: 1px solid rgb(204, 204, 204);
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+	}
+}
